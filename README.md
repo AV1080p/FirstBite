@@ -24,4 +24,6 @@ Sample Lab - Introduction to some of our tests
 
 This software is to be used for testing and demonstrating advanced adversary capabilities. 
 
+You can deliver the .js files in any script host. 
+
 Use at your own risk.
